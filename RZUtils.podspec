@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Commonly used iOS categories and components from the Raizlabs development team"
 
   s.description  = <<-DESC
+                   Forked - 
                    RZUtils is a collection of categories and smaller components for iOS development
                    that are used by the Raizlabs development team in multiple applications. This library
                    will continue to grow as components are added, edited, deprecated and removed.
@@ -11,20 +12,15 @@ Pod::Spec.new do |s|
                    See the README for more details on the individual components.
                    DESC
 
-  s.homepage     = "https://github.com/Raizlabs/RZUtils"
+  s.homepage     = "https://github.com/clublabs/RZUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.authors      = { "Stephen Barnes" => "stephen.barnes@raizlabs.com",
-                     "Nick Bonatsakis" => "nick.bonatsakis@raizlabs.com",
-                     "Nick Donaldson" => "nick.donaldson@raizlabs.com",
-                     "Zev Eisenberg" => "zev.eisenberg@raizlabs.com",
-                     "Andrew McKnight" => "andrew.mcknight@raizlabs.com",
-                     "Alex Rouse" => "alex.rouse@raizlabs.com" }
+  s.authors      = { "ACE" => "aaa.ace.dev@gmail.com" }
 
-  s.social_media_url   = "http://twitter.com/raizlabs"
+  s.social_media_url   = ""
 
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/Raizlabs/RZUtils.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/clublabs/RZUtils.git", :tag => s.version.to_s }
   s.requires_arc = true
   s.frameworks   = "Foundation", "UIKit"
 
